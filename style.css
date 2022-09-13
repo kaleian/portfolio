@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Josefin Sans', sans-serif;
+    box-sizing border-box;
+}
+:root{
+    --primary:hsla(0, 9%, 3%, 0.75);
+    --secondary:hsla(0, 6%, 2%, 0.75);
+}
+.logo{
+    color: aqua;
+}
+.hero{
+    height: 85vh;
+    width: 100%;
+    background-image: linear-gradient(135deg, var(--primary), var(--secondary)),url(yeah.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 75px;
+    color: aqua;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: black;
+    height: 100px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 2s;
+    position: relative;
+}
+/*a:hover{
+    text-decoration: underline 3px solid red ;
+    position: absolute;
+    left: 0;
+}*/
+a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: orangered;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 1.5s;
+}
+a:hover::after{
+    width: 100%;
+}
+ul{
+    display: flex;
+    color: aliceblue;
+}
+
+
+li{
+    margin-right: 30px;
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+.about{
+    width: 1350px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(135deg, var(--primary), var(--secondary)),
+                 url(2.jpg);
+}
+hr{
+    color: green;
+    height: 3px;
+}
+P{
+    width: 300px;
+    background-color: black;
+    color: aqua;
+    font-size: 20px;
+    padding: 40px;
+border-radius: 16px;
+margin-top: 2px;
+}
+.skills{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--primary), var(--secondary)),url(3.jpg);
+}
+
+.skills p{
+    margin-right: 30px;
+}
+
+.row{
+    display: flex;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51, 50, 50);
+    color: black;
+}
+h2{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
