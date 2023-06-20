@@ -53,6 +53,17 @@ margin-right: 25px;
     min-width: none;
 
 }
+.home-content img{
+    width: 39%;
+    border-top-left-radius:450px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 450px;
+    border-top-right-radius:450px ;
+    float: right;
+    margin-left: 700px;
+    position: absolute;
+    box-shadow: 1px 2px 5px aqua;
+}
 .home-content h1 {
     font-size: 56px;
     font-weight: 700;
@@ -86,7 +97,7 @@ margin-right: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .vivid-button {
-    background-color: aqua;
+    background-color: #191919;
     color: white;
     padding: 10px 25px;
     border: none;
@@ -98,11 +109,11 @@ margin-right: 25px;
     top: 75%;
     left: 3%;
     bottom: 18%;
-    box-shadow: 1px 2px 3px white
+    box-shadow: 1px 2px 3px aqua;
   }
 
   .vivid-button:hover {
-    background-color: lightskyblue;
+    background-color: none;
   }
   .twitter-icon {
     width: 40px;
@@ -162,6 +173,7 @@ margin-right: 25px;
     border-bottom-right-radius: 450px;
     border-bottom-left-radius: 450px;
     border-top-right-radius:450px ;
+    box-shadow: 1px 2px 5px aqua;
 }
 .about-text{
     width: 550px;
