@@ -118,7 +118,7 @@ margin-right: 25px;
   .twitter-icon {
     width: 40px;
     height: 40px;
-    background-image: url('https://abs.twimg.com/favicons/twitter.ico');
+    background-image: url('https://cdn-icons-png.flaticon.com/128/5969/5969020.png');
     background-size: cover;
     top: 75%;
     left: 16%;
@@ -149,12 +149,13 @@ margin-right: 25px;
   .github-icon {
     width: 44px;
     height: 44px;
-    background-image: url('1.png');
+    background-image: url('https://cdn-icons-png.flaticon.com/128/1051/1051377.png');
     background-size: cover;
     top: 75%;
     left: 28%;
     bottom: 15%;
     position: absolute;
+    color: white;
 
   }
 .about{
