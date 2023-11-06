@@ -247,12 +247,16 @@ text-shadow: 1px 2px 3px aqua
     box-shadow: 1px 2px 3px white;
      
 }
-.skill-box{
+.skill-box {
+    border: 2px solid aqua;
     padding: 1rem;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
     color: #ddd;
     cursor:pointer;
 }
-
     
 .skill-box:hover .img{
     transform: translateY(-10px);
