@@ -165,13 +165,10 @@ margin-right: 25px;
     justify-content: center;
 }
 .about img{
-    height: max-content;
+    height: fit-content;
     width: 430px;
     margin-right: 50px;
-    border-top-left-radius: 500px;
-    border-bottom-right-radius: 500px;
-    border-bottom-left-radius:500px;
-    border-top-right-radius:500px ;
+    border-radius:1000px;
     box-shadow: 1px 2px 5px aqua;
 }
 .about-text{
