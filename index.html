@@ -28,25 +28,36 @@
             Check out my projects in Github.</p>
         </div> 
        <button class="vivid-button">Let’s Connect!</button>
-       <a href="https://twitter.com/ian_kale">
-        <div class="twitter-icon"></div>
-        <a href="https://www.instagram.com/k.a.l.eee">
-        <div class="instagram-icon"></div>
-        <a href="https://www.facebook.com/iankally37">
-        <div class="facebook-icon"></div>
-        <a href="https://github.com/kaleian">
-        <div class="github-icon"></div>
+       <div class="social-icons">
+        <a href="https://twitter.com/ian_kale" target="_blank">
+            <div class="twitter-icon"></div>
+        </a>
+    
+        <a href="https://www.instagram.com/k.a.l.eee" target="_blank">
+            <div class="instagram-icon"></div>
+        </a>
+    
+        <a href="https://www.facebook.com/iankally37" target="_blank">
+            <div class="facebook-icon"></div>
+        </a>
+    
+        <a href="https://github.com/kaleian" target="_blank">
+            <div class="github-icon"></div>
+        </a>
+    </div>    
        </section>
 <section class="about">
         <div class="main">
-            <img src="pic3.jpg">
+            <img src="about.jpg">
             <div class="about-text">
             <h2>About me</h2>
             <h5>Developer & Designer</h5>
             <p>I am a Front-end web developer. I can provide clean code and pixel perfect design.
                 I also make the website more and more interactive with web animations. A responsive design makes 
                 your website accesible to all user, regardless of their device.</p>
-                <button type="button">Email me</button>
+                <a href="mailto:kaleian54@gmail.com">
+                    <button type="button">Email Me</button>
+                </a>
             </div>
         </div>
 
@@ -125,16 +136,31 @@
 
 
 
-        <section class="contacts">
-            <h1 class="contact-title">Contact Me</h1>
-            <div class="box">
-                <form autocomplete="off">
-                   <input type="text" placeholder="Name">
-                   <input type="email" placeholder="Email">
-                   <textarea placeholder="Type Your Message...."></textarea>
-                   <button>Send</button>
-                </form>
-             </div>
+        <section >
+            <div class="contact-form">
+        <div class="contacts">
+            <form action="#" method="POST">
+                <h2>Contact Me</h2>
+
+                <div class="form-group">
+                    <input type="text" name="name" id="name" required>
+                    <label for="name">Name</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" name="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="form-group">
+                    <textarea name="message" id="message" required></textarea>
+                    <label for="message">Message</label>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
         </section>
         <footer class="footer">
             <p> copyright &copy 2023 All Rights Reserved-KaleIan</p>
